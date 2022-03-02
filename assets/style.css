@@ -9,80 +9,53 @@
 
 body{
     font-family: 'Space Mono', monospace;
+    padding: min(10vh, 2rem);
 }
 
-.img {
-    width: 33.7rem;
-    height: 25.8rem;
-}
 .item3__title {
-    font-size: 45px;
-    line-height: 71px;
+    font-size: clamp(2rem, 1rem + 20vh, 3rem);
+    width: max(350px , 400px);
+    word-spacing: -1rem;
+}
+.item1 {
+    font-weight: bold;
+}
+.img {
+    width: min(539px, 80%);
+    height: max(450px, 100%);
+    margin: 2rem 2rem 0;
+}
+.item3 {
+    padding-block: min(10vh, 10rem);
 }
 .item3__subtitle {
-    
+    width: min(586px, 328px);
+    padding: min(10vh, 2rem) 0;
 }
 .item3__btn {
-    padding: 0.5rem;
+    margin-top: 2rem;
+    color: #fff;
+    background-color: #333333;
+    padding: 24px 43px;
 }
-@media only screen and (max-width: 375px) {
-    .item1 {
-        padding: 1rem;
-    }
-    .img {
-        width: 256.83px;
-        height: 220.35px;
-        margin: 4rem auto;
-    }
-    .item3__title {
-        padding: 0.5rem;
-        margin-left: 24px;
-        word-spacing: -10px;
-    }
-    .item3__subtitle {
-        width: 70%;
-        padding: 0.5rem;
-        margin-left: 24px;
-    }
-    .item3__btn {
-        margin: 64px 24px;
-        padding: 24px 43px;
-        font-size: 14px;
-        color: #fff;
-        background-color: #333333;
-    }
-    .item4 {
-        font-size: 14px;
-        text-align: center;
-    }
+.item3__btn:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #333333;
+}
+.item4 {
+    font-size: clamp(.8rem, 2rem + 5vh, .8rem);
+    text-align: center;
+    color: rgb(179, 175, 175);
+}
+.item4 a:hover {
+    color: #333333;
+    text-decoration: none;
 }
 
 @media (min-width: 1020px) {
-    .item1 {
-    padding: 2rem 8rem;
-}
-    .item_flexbox {
-        display: flex;
-        justify-content: center;
-        margin-top: 8%;
-    }
-    .sub__items {
-        width: 70%;
-        margin-left: 3rem;
-    }
-    .item3__subtitle {
-        padding: 36px 0;
-        width: 50%;
-    }
-    .item3__btn {
-        margin: 64px 0;
-        padding: 24px 43px;
-        font-size: 14px;
-        color: #fff;
-        background-color: #333333;
-    }
-    .item4 {
-        text-align: center;
-        margin-top: 2rem;
+    .item_flexbox{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
