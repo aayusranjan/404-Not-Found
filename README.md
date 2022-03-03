@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://">
+    <a href="https://www.figma.com/file/QeKWLNhB13zDjJzqR22TKE">
       Demo
     </a>
     <span> | </span>
-    <a href="https://not-found-master-1243c.firebaseapp.com/">
+    <a href="https://aayusranjan.github.io/404-Not-Found/">
       Solution
     </a>
     <span> | </span>
@@ -34,30 +34,29 @@
 
 <!-- OVERVIEW -->
 
-## Overview
+## Overview <a name = "overview"></a>
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](images/404-Not-Found-img.png) 
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
-
-## Features
-
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
-
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to complete the given user stories.
+   ### Built with <a name = "built-with"></a>
+   - Semantic HTML5 markup
+   - CSS custom properties
+   - Flexbox
+   - Mobile-first workflow
 
 
-## Acknowledgements
+- It wasn't tough to do. It's mainly begginer friendly. Its help me out to use my responiveness creativity.
+- I learned new thing about `font-size` responsiveness and using `min`, `max` by doin this project.
 
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
+## Features <a name = "features"></a>
 
+This site is responsive.
 
-## Contact
+## Contact<a name = "contact"></a>
 
 - GitHub [@aayusranjan](https://{github.com/aayusranjan})
 - Twitter [@aayusranjan](https://{twitter.com/aayusranjan})
+
+## Acknowledgements<a name = "acknowledgements"></a>
+
+A huge thank to Figma and [Kevin Powell](https://www.youtube.com/kepowob) who help me to understand the text responiveness and many more.
